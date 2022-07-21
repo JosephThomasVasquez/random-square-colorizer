@@ -61,7 +61,6 @@ if (allSquares.length === 16) {
 
       // Set a random background color for the square
       getSquare.style.backgroundColor = `rgb(${randomizeColor().join(",")})`;
-      getSquare.style.border = "2px solid rgba(0, 0, 0, 0)";
 
       // Check if the square id exists
     } else if (lastChanged[getSquare.id]) {
@@ -73,7 +72,6 @@ if (allSquares.length === 16) {
         // Change the color, border and set the time to now
         lastChanged[getSquare.id].timeChanged = Date.now();
         getSquare.style.backgroundColor = `rgb(${randomizeColor().join(",")})`;
-        getSquare.style.border = "2px solid rgba(0, 0, 0, 0)";
       } else {
         // getSquare.style.border = "2px solid red";
         getSquare.classList.toggle("flash");
