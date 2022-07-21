@@ -6,6 +6,7 @@ const squares = 16;
 // Set timer to 2 seconds using 8000ms
 const ms2Seconds = 8000;
 
+// Map
 const lastChanged = {};
 
 //  Create quares and add attributes
@@ -29,7 +30,7 @@ const randomInt = (id) => {
   return randomValue;
 };
 
-// Generate 3 RGB values for styling a squares background
+// Generate 3 random RGB values for styling a squares background
 // ________________________________________________________________________
 const randomizeColor = () => {
   const rgbValues = [];
