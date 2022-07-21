@@ -38,6 +38,7 @@ Functions
 
 <hr>
 <br>
+
 ## **How it works**
 
 1. Every 250ms using the `setInterval` method a random square is selected using the `randomInt` function. If the element does not exist in the map then it is added with keys `id` and `timeChanged` with the id of the element and the time using the `Date.now()` method to keep track of the time the element was selected.
